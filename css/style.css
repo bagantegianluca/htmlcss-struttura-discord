@@ -18,7 +18,7 @@ button{
 
 /* #region utility */
 .container{
-    width: 80%;
+    width: 70%;
     margin: auto;
     border: 1px solid black;
 }
@@ -37,6 +37,13 @@ button{
     justify-content: space-between;
 }
 
+.col-05{
+    width: calc((100% / 12) * 5);
+}
+
+.col-07{
+    width: calc((100% / 12) * 7);
+}
 /* #endregion utility */
 
 /* #region header */
@@ -78,5 +85,15 @@ button{
 
 .debug .banner-top .container{
     background: yellow;
+}
+
+.debug section{
+    height: 800px;
+    background: grey;
+    border: 1px solid red;
+}
+
+.debug section .container{
+    background-color: aqua;
 }
 /* #endregion debug */
