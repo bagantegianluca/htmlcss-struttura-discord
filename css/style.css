@@ -20,7 +20,7 @@ button{
 .container{
     width: 80%;
     margin: auto;
-    border: 1px solid yellow;
+    border: 1px solid black;
 }
 
 .row{
@@ -36,11 +36,20 @@ button{
 .space-btw{
     justify-content: space-between;
 }
+
 /* #endregion utility */
 
 /* #region header */
 #header a{
     padding: 10px;
+}
+
+.banner-top{
+    background-image: url();
+}
+
+.banner-top .container{
+    flex-direction: column;
 }
 /* #endregion header */
 
@@ -59,6 +68,15 @@ button{
 }
 
 .debug #header .container{
+    background: yellow;
+}
+
+.debug .banner-top{
+    height: 550px;
+    background: blue;
+}
+
+.debug .banner-top .container{
     background: yellow;
 }
 /* #endregion debug */
