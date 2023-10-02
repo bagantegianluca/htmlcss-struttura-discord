@@ -44,6 +44,10 @@ button{
 .col-07{
     width: calc((100% / 12) * 7);
 }
+
+.flex-column{
+    flex-direction: column;
+}
 /* #endregion utility */
 
 /* #region header */
@@ -53,10 +57,6 @@ button{
 
 .banner-top{
     background-image: url();
-}
-
-.banner-top .container{
-    flex-direction: column;
 }
 /* #endregion header */
 
@@ -91,6 +91,14 @@ button{
     height: 800px;
     background: grey;
     border: 1px solid red;
+}
+
+.debug section img{
+    background: lightblue;
+}
+
+.debug section .text{
+    background: pink;
 }
 
 .debug section .container{
